@@ -101,18 +101,13 @@ class TasksController {
     const id = req.params.id;
     const cumplida = req.body.cumplida;
     const name = req.body.name;
-      if (!id  || !name || !cumplida===undefined) {
+      if (!id  || !name || !cumplida) {
       res.status(402).json({
-        message: "id no definido",
+        message: "error al ingresar datos",
       });
-      if (!cumplida) {
-        res.status(402).json({
-          message: "tarea incorrecta",
-        });
-      }
     }else{
     try {
-      const tareaModificada = await TasksService.cumplirPostergar(id,cumplida);
+      const tareaModificada = await TasksService.editTask(id,name,cumplida);
       res.status(200).json(tareaModificada);
     } catch (error) {
       if (error instanceof Error)
@@ -121,6 +116,9 @@ class TasksController {
       });
   }
     }
+  }
+  public size (req: Request, res: Response){
+    res.status(200).json({size: TasksService.size()});
   }
 }
 

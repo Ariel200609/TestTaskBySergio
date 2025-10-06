@@ -36,6 +36,4 @@ export class Task {
     this.cumplida = cumplido;
   }
 
-
-
 }

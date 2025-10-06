@@ -77,6 +77,7 @@ export class MockTask implements TaskCrud {
     addTask(tarea: Task): Promise <Task> {
         return new Promise <Task>((resolve) => {
         tarea.setId(this.id + "");
+        tarea.setCumplido(false);
         this.container.push(tarea);
         this.id++;
         this.tam++;
