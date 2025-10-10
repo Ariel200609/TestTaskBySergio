@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1760110590780" clover="3.2.0">
+  <project timestamp="1760110590780" name="All files">
+    <metrics statements="71" coveredstatements="66" conditionals="14" coveredconditionals="9" methods="36" coveredmethods="36" elements="121" coveredelements="111" complexity="0" loc="71" ncloc="71" packages="3" files="3" classes="3"/>
+    <package name="models">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+      <file name="task.ts" path="C:\Users\ariel\Test Task by sergio\testingtask\src\models\task.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="28" type="stmt"/>
+        <line num="6" count="28" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="28" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="49" type="stmt"/>
+        <line num="18" count="15" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="36" count="18" type="stmt"/>
+      </file>
+    </package>
+    <package name="models.implementations.mockTask">
+      <metrics statements="51" coveredstatements="46" conditionals="12" coveredconditionals="7" methods="21" coveredmethods="21"/>
+      <file name="mockTask.ts" path="C:\Users\ariel\Test Task by sergio\testingtask\src\models\implementations\mockTask\mockTask.ts">
+        <metrics statements="51" coveredstatements="46" conditionals="12" coveredconditionals="7" methods="21" coveredmethods="21"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="70" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="78" count="14" type="stmt"/>
+        <line num="79" count="14" type="stmt"/>
+        <line num="80" count="14" type="stmt"/>
+        <line num="81" count="14" type="stmt"/>
+        <line num="82" count="14" type="stmt"/>
+        <line num="83" count="14" type="stmt"/>
+        <line num="84" count="14" type="stmt"/>
+        <line num="88" count="13" type="stmt"/>
+        <line num="89" count="24" type="stmt"/>
+        <line num="90" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="93" count="13" type="stmt"/>
+        <line num="94" count="13" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="tasks.service.ts" path="C:\Users\ariel\Test Task by sergio\testingtask\src\services\tasks.service.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="16" count="13" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

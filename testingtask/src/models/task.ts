@@ -3,7 +3,7 @@ export class Task {
   constructor(
     
     protected tarea: string,
-    protected cumplida: boolean,
+    protected cumplida: boolean = false,
     protected id: string = ""
   ) {}
 
